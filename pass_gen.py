@@ -11,10 +11,10 @@ length = input('password length?')
 length = int(length)
 
 #Asking user for length of password
-#Adding Warning if length is less than 8 char
+#Adding Warning if length is less than 9 char
 
-if length < 8:
-  strenght = input('Strong password requires 9 characters or more, continue anyways? yes/no ')
+if length < 9:
+  strenght = input('Strong passwords require 9 characters or more, continue anyways? yes/no ')
   if strenght == "no":
     length = input('password length?')
     length = int(length)
